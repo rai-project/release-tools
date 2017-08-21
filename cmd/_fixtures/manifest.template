@@ -1,0 +1,12 @@
+---
+applications:
+- path: .
+  memory: {{ .MemorySize }}
+  instances: 1
+  domain: mybluemix.net
+  name: {{ .Package }}
+  host: {{ .HostName }}
+  disk_quota: {{ .DistQuota }}
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git
+  env:
+    GOVERSION: go1.7

@@ -1,0 +1,7 @@
+package {{ .Package }}
+
+const (
+	VersionInfo   = "{{ .VersionInfo }}"
+	Repository    = "{{ .Repository }}"
+	BuildTimeInfo = "{{ .BuildTimeInfo }}"
+)
