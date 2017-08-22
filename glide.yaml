@@ -1,0 +1,9 @@
+package: github.com/rai-project/release-tools
+import:
+- package: github.com/GeertJohan/go.rice
+  subpackages:
+  - embedded
+- package: github.com/junegunn/go-shellwords
+- package: github.com/pkg/errors
+  version: ~0.8.0
+- package: github.com/spf13/cobra
